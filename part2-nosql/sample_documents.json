@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "E1001",
+    "category": "Electronics",
+    "name": "Samsung 65-inch 4K Smart TV",
+    "brand": "Samsung",
+    "price": 25000,
+    "specifications": {
+      "resolution": "3840x2160",
+      "voltage": "220V",
+      "warranty_years": 2,
+      "ports": ["HDMI", "USB", "Ethernet"]
+    },
+    "features": ["Smart TV", "HDR10+", "Voice Control"]
+  },
+  {
+    "_id": "C2001",
+    "category": "Clothing",
+    "name": "Men's Leather Jacket",
+    "brand": "Levi's",
+    "price": 4500,
+    "attributes": {
+      "size": ["M", "L", "XL"],
+      "color": "Black",
+      "material": "Genuine Leather"
+    },
+    "care_instructions": ["Dry Clean Only", "Do Not Iron"],
+    "availability": {
+      "online": true,
+      "stores": ["Mall A", "Mall B"]
+    }
+  },
+  {
+    "_id": "G3001",
+    "category": "Groceries",
+    "name": "Organic Almond Milk",
+    "brand": "Alpro",
+    "price": 350,
+    "nutrition": {
+      "calories": 60,
+      "protein_g": 2,
+      "fat_g": 3,
+      "carbs_g": 8
+    },
+    "expiry_date": "2024-12-15",
+    "ingredients": ["Water", "Almonds", "Sea Salt"],
+    "storage": "Keep refrigerated"
+  }
+]
